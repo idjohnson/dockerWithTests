@@ -23,6 +23,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: false
+          target: test
           tags: idjohnson/dockerwithtests:latest
 
       - name: Image digest
